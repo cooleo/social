@@ -1,2 +1,3 @@
-# social
-social api
+# social-apis
+
+a [Sails](http://sailsjs.org) application
