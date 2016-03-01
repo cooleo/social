@@ -8,14 +8,15 @@
 module.exports = {
 
   attributes: {
-  	userId: 'string',
-  	feedId: 'string',
+  	user: {
+  		model:'user'
+  	},
+  	feed: {
+  		model:'feed'
+  	},
   	action: 'string',
-  	actionType: 'integer' // 1. like, 2. share, 3. comment, 4. pin, 5. tag
-  	content: 'string'
-  	created: 'date',
-  	updated: 'date'
-
+  	actionType: 'integer', // 1. like, 2. share, 3. comment, 4. pin, 5. tag
+  	content: 'text'
   }
 };
 
